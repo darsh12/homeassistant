@@ -1,0 +1,8 @@
+light.yeelight_rgb_286c07b14596:
+  friendly_name: Light Right
+
+light.yeelight_rgb_286c07b14f48:
+  friendly_name: Light Left
+  
+light.yeelight_rgb_286c07b15582:
+  friendly_name: Light Front

@@ -11,7 +11,7 @@ homeassistant:
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: America/Chicago
   # Customization file
-  customize: !include_dir_merge_named customize/
+  customize: !include_dir_merge_named customize
 
 # Show links to resources in log and frontend
 introduction:
@@ -56,7 +56,18 @@ sun:
 
 # Text to speech
 tts:
+
   - platform: google
+
+device_tracker:
+  - platform: ddwrt
+    host: 192.168.1.1
+    username: !secret router_username
+    password: !secret router_password
+
+
+
+
 
 sensor: !include_dir_merge_list sensor/
 group: !include_dir_merge_named group/
