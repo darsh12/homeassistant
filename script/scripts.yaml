@@ -1,0 +1,4 @@
+- alias: Turn off lights
+  sequence:
+    data: {}
+    service: light.turn_off
