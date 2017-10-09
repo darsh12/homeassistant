@@ -17,7 +17,7 @@
   action:
     service: light.turn_on
     entity_id: group.all_lights
-    data:
+    data: 
       brightness: '50'
       rgb_color: [244,188,66]
 

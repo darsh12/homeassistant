@@ -1,1 +1,11 @@
--platform: yr 
+- platform: darksky
+  api_key: !secret darksky_api
+  monitored_conditions:
+    - hourly_summary
+    - daily_summary
+    - precip_probability
+    - precip_intensity
+    - temperature
+    - apparent_temperature_min
+    - apparent_temperature_max
+  units: si
