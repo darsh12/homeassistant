@@ -9,3 +9,6 @@
     - apparent_temperature_min
     - apparent_temperature_max
   units: si
+
+- platform: cert_expiry
+  host: !secret host
