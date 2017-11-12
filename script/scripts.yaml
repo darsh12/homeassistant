@@ -2,3 +2,21 @@ light_turn_off_all:
   sequence:
     - service: light.turn_off
       entity_id: group.all_lights
+ 
+ 
+normal_lights:
+  sequence:
+    - service: light.turn_on
+      entity_id: group.all_lights
+      data:
+        brightness_pct: '100'
+        effect: Stop
+        rgb_color: [255,255,255]
+
+disco_lights:
+  sequence:
+    - service: light.turn_on
+      entity_id: group.all_lights
+      data:
+        brightness: '255'
+        effect: Disco
