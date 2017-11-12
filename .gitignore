@@ -5,3 +5,4 @@ home-assistant.log
 home-assistant_v2.db
 *.DS_Store
 known_devices.yaml
+.HA_VERSION
