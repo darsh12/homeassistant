@@ -6,3 +6,6 @@ home-assistant_v2.db
 *.DS_Store
 known_devices.yaml
 .HA_VERSION
+ip_bans.yaml
+.ios.conf
+ios.conf

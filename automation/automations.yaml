@@ -29,4 +29,12 @@
   action:
     service: light.turn_off
     entity_id: group.all_lights
-     
+
+- alias: HA Update
+  trigger:
+    platform: state
+    entity_id: update.updater
+  action:
+    service: notify.darshan_patels_iphone
+    data:
+      message: "There is a new Home Assistant version available"  

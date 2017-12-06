@@ -59,6 +59,13 @@ device_tracker:
     username: !secret router_username
     password: !secret router_password
 
+ios:
+
+notify:
+  - platform: ios
+    name: darshan_patels_iphone
+    target: e1a15503-ff2d-38ab-a427-8fd662605705
+
 sensor: !include_dir_merge_list sensor/
 group: !include_dir_merge_named group/
 automation: !include_dir_merge_list automation/

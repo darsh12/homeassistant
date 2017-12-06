@@ -20,3 +20,6 @@ disco_lights:
       data:
         brightness: '255'
         effect: Disco
+    - service: notify.darshan_patels_iphone
+      data:
+        message: "Disco lights turned on"
