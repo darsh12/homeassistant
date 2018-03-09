@@ -8,7 +8,7 @@
     - temperature
     - apparent_temperature_min
     - apparent_temperature_max
-  units: si
+  units: uk
 
 - platform: cert_expiry
   host: !secret host

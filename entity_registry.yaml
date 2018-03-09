@@ -1,0 +1,6 @@
+sensor.darshan_patels_iphone_battery_state:
+  platform: ios
+  unique_id: state_darshan_patels_iphone
+sensor.darshan_patels_iphone_battery_level:
+  platform: ios
+  unique_id: level_darshan_patels_iphone
