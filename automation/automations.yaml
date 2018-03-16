@@ -35,6 +35,6 @@
     platform: state
     entity_id: update.updater
   action:
-    service: notify.darshan_patels_iphone
+    service: notify.ios_darshan_patels_iphone
     data:
       message: "There is a new Home Assistant version available"  
