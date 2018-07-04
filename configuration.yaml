@@ -72,4 +72,4 @@ sensor: !include_dir_merge_list sensor/
 group: !include_dir_merge_named group/
 automation: !include_dir_merge_list automation/
 script: !include_dir_merge_named script/
-light: !include_dir_merge_list light/
+# light: !include_dir_merge_list light/
