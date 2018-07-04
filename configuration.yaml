@@ -68,6 +68,16 @@ notify:
     name: darshan_patels_iphone
     target: !secret ios_target 
 
+input_select:
+  harmony_activity:
+    name: Harmony Activity
+    options:
+      - Select Input
+      - Watch TV
+      - Watch Fire TV
+      - PowerOff
+    initial: Select Input
+
 sensor: !include_dir_merge_list sensor/
 group: !include_dir_merge_named group/
 automation: !include_dir_merge_list automation/

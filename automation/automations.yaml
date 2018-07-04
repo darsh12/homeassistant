@@ -33,7 +33,7 @@
 - alias: HA Update
   trigger:
     platform: state
-    entity_id: update.updater
+    entity_id: updater.updater
   action:
     service: notify.ios_darshan_patels_iphone
     data:
